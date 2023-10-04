@@ -1,3 +1,5 @@
+/*Can you create a dark-blue gradient background for the hero section?*/
+
 /* Reset some default styles */
 * {
   margin: 0;
@@ -17,8 +19,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f7f7f7; /* Light background color */
-  color: #333; /* Dark text color */
+  background-color: #333;
+  color: #fff;
   padding: 10px 50px;
 }
 
@@ -26,7 +28,6 @@ nav {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase; /* Uppercase brand name */
-  color: #00294e; /* Dark blue text color matching hero section background */
 }
 
 .nav-links {
@@ -35,14 +36,14 @@ nav {
 }
 
 .nav-links a {
-  color: #00294e; /* Dark blue text color matching hero section background */
+  color: #fff;
   text-decoration: none;
   font-weight: bold; /* Bolder font for links */
   transition: color 0.3s; /* Smooth color transition on hover */
 }
 
 .nav-links a:hover {
-  color: #007bff; /* Change link color on hover to a light blue */
+  color: #ff9900; /* Change link color on hover */
 }
 
 /* Hero Section Styles */
@@ -126,8 +127,8 @@ nav {
 
 /* Footer Styles */
 footer {
-  background-color: #f7f7f7; /* Light background color */
-  color: #333; /* Dark text color */
+  background-color: #333;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
@@ -164,9 +165,10 @@ footer {
 }
 
 .footer-column a {
-  color: #333; /* Dark text color */
+  color: #fff;
   text-decoration: none;
 }
 
 /* Apply a modern font (Roboto) from Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+

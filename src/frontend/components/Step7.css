@@ -1,3 +1,6 @@
+/*Can you make the navbar and the footer light themed? Currently the dark backgrounds clash with the blue hero section.*/
+
+
 /* Reset some default styles */
 * {
   margin: 0;
@@ -26,7 +29,6 @@ nav {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase; /* Uppercase brand name */
-  color: #00294e; /* Dark blue text color matching hero section background */
 }
 
 .nav-links {
@@ -35,7 +37,7 @@ nav {
 }
 
 .nav-links a {
-  color: #00294e; /* Dark blue text color matching hero section background */
+  color: #333; /* Dark text color */
   text-decoration: none;
   font-weight: bold; /* Bolder font for links */
   transition: color 0.3s; /* Smooth color transition on hover */

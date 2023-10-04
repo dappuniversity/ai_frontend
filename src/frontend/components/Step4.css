@@ -1,3 +1,6 @@
+/*Can you make the entire app themed like modern web application?*/
+
+
 /* Reset some default styles */
 * {
   margin: 0;
@@ -17,8 +20,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f7f7f7; /* Light background color */
-  color: #333; /* Dark text color */
+  background-color: #333;
+  color: #fff;
   padding: 10px 50px;
 }
 
@@ -26,7 +29,6 @@ nav {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase; /* Uppercase brand name */
-  color: #00294e; /* Dark blue text color matching hero section background */
 }
 
 .nav-links {
@@ -35,22 +37,22 @@ nav {
 }
 
 .nav-links a {
-  color: #00294e; /* Dark blue text color matching hero section background */
+  color: #fff;
   text-decoration: none;
   font-weight: bold; /* Bolder font for links */
   transition: color 0.3s; /* Smooth color transition on hover */
+
 }
 
 .nav-links a:hover {
-  color: #007bff; /* Change link color on hover to a light blue */
+  color: #ff9900; /* Change link color on hover */
 }
 
 /* Hero Section Styles */
 .hero-section {
-  background: linear-gradient(135deg, #00294e, #001220); /* Higher-contrast dark-blue gradient background */
+  background-color: #fff; /* White background */
   padding: 100px 0;
   text-align: center;
-  color: #fff; /* Text color on dark background */
 }
 
 .hero-section input {
@@ -65,7 +67,7 @@ nav {
 .hero-section button {
   padding: 12px 24px;
   margin-left: 10px;
-  background-color: #007bff; /* Blue background color */
+  background-color: #ff9900; /* Button background color */
   color: #fff; /* Button text color */
   border: none;
   border-radius: 4px;
@@ -74,7 +76,7 @@ nav {
 }
 
 .hero-section button:hover {
-  background-color: #0056b3; /* Change button background color on hover */
+  background-color: #ff6600; /* Change button background color on hover */
 }
 
 /* Data Sections Styles */
@@ -126,8 +128,8 @@ nav {
 
 /* Footer Styles */
 footer {
-  background-color: #f7f7f7; /* Light background color */
-  color: #333; /* Dark text color */
+  background-color: #333;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
@@ -164,7 +166,7 @@ footer {
 }
 
 .footer-column a {
-  color: #333; /* Dark text color */
+  color: #fff;
   text-decoration: none;
 }
 
